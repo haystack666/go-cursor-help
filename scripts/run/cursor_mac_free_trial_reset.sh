@@ -230,7 +230,7 @@ generate_new_config() {
     log_warn "机器码处理"
     
     # 默认不重置机器码
-    reset_choice=0
+    reset_choice=1
     
     # 记录日志以便调试
     echo "[INPUT_DEBUG] 机器码重置选项: 不重置 (默认)" >> "$LOG_FILE"
